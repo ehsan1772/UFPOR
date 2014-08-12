@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiBinderReferences>
+<referenceManager>
+<references>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DoubleTable.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DoubleTable.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DoubleTable.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Designertest.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="com.designer.gwt.client.Environment$EnvironmentUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="com.designer.gwt.client.DoubleTable$DoubleTableUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DoubleTable.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Doubletable2.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Doubletable2.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Designertest.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Designertest.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Doubletable2.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.sun.org.apache.xpath.internal.operations"/>
+</targetLocation>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="com.designer.gwt.client.Designertest$DesignertestUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Designertest.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="com.designer.gwt.client.Doubletable2$Doubletable2UiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Doubletable2.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+</references>
+</referenceManager>
+<uiBinderSubtypeToOwner>
+<entry owner="com.designer.gwt.client.Doubletable2" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Doubletable2.java[Doubletable2[Doubletable2UiBinder"/>
+<entry owner="com.designer.gwt.client.Designertest" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Designertest.java[Designertest[DesignertestUiBinder"/>
+<entry owner="com.designer.gwt.client.Environment" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Environment.java[Environment[EnvironmentUiBinder"/>
+<entry owner="com.designer.gwt.client.DoubleTable" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{DoubleTable.java[DoubleTable[DoubleTableUiBinder"/>
+</uiBinderSubtypeToOwner>
+<uiBinderSubtypeToUiXml>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Environment.java[Environment[EnvironmentUiBinder" uiXmlPath="com/designer/gwt/client/Environment.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Doubletable2.java[Doubletable2[Doubletable2UiBinder" uiXmlPath="com/designer/gwt/client/Doubletable2.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Designertest.java[Designertest[DesignertestUiBinder" uiXmlPath="com/designer/gwt/client/Designertest.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{DoubleTable.java[DoubleTable[DoubleTableUiBinder" uiXmlPath="com/designer/gwt/client/DoubleTable.ui.xml"/>
+</uiBinderSubtypeToUiXml>
+<uiXmlReferencedFields>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Doubletable2.ui.xml" name="style"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="button"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="style"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="add"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="editList"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="removeAll"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="sourceList"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="addAll"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="style"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="remove"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Environment.ui.xml" name="style"/>
+</uiXmlReferencedFields>
+</uiBinderReferences>

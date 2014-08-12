@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;add&apos; in &apos;com.designer.gwt.client.DoubleTable&apos; to &apos;remove&apos;&#x0A;- Original project: &apos;TestGWTDesigner&apos;&#x0A;- Original element: &apos;com.designer.gwt.client.DoubleTable.add&apos;&#x0A;- Renamed element: &apos;com.designer.gwt.client.DoubleTable.remove&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="true" description="Rename field &apos;add&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.designer.gwt.client{DoubleTable.java[DoubleTable^add" name="remove" references="true" setter="false" stamp="1405824156719" textual="false" version="1.0"/>
+</session>
