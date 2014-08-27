@@ -3,8 +3,19 @@
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.ClickHandler"/>
 <fullyQualifiedTypeName name="com.google.gwt.i18n.client.HasDirection.Direction"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.PopupBase"/>
-<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.DecoratedTabPanel"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.TabLayoutPanel"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.DoubleTable"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.TabBar.Tab"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentGrouping"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Label"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentActivity"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentReq"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.DecoratedTabPanel"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.RootPanel"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.CellTable"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.Column"/>
 </qualifiedTypeNameHistroy>
