@@ -7,15 +7,24 @@
 <fullyQualifiedTypeName name="com.designer.gwt.client.DoubleTable"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.TabBar.Tab"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentGrouping"/>
-<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Label"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentActivity"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentReq"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.DecoratedTabPanel"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.RootPanel"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.CellTable"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.google.gwt.view.client.ListDataProvider"/>
+<fullyQualifiedTypeName name="com.google.gwt.i18n.client.Constants"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.DataGrid"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.SimplePager"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Label"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.ContactDatabase.ContactInfo"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.ContactDatabase.Category"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.google.gwt.dom.client.Style.Unit"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.Header"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.cellview.client.Column"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

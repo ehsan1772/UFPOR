@@ -1,0 +1,52 @@
+package com.designer.gwt.client;
+
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.ui.Composite;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.TabLayoutPanel;
+import com.google.gwt.user.client.ui.Widget;
+
+public class PopupBase extends Composite {
+	@UiField TabLayoutPanel panel;
+	
+	private static PopupBaseUiBinder uiBinder = GWT
+			.create(PopupBaseUiBinder.class);
+
+	interface PopupBaseUiBinder extends UiBinder<Widget, PopupBase> {
+	}
+
+	public PopupBase() {
+		initWidget(uiBinder.createAndBindUi(this));
+	}
+
+	@Override
+	protected void initWidget(Widget widget) {
+		super.initWidget(widget);
+
+		panel.add(new EnvironmentGeneral(), "General");
+		panel.add(new EnvironmentGrouping(), "Grouping");
+		
+		EnvironmentGrouping adjacencies = new EnvironmentGrouping();
+		adjacencies.setFirstTitle("Required Adjacencies");
+		adjacencies.setSecondTitle("Avoid Adjacencies");
+		panel.add(adjacencies, "Adjacencies");
+	
+		EnvironmentActivity activity = new EnvironmentActivity();
+		activity.setFirstTitle("Activities");
+		activity.setSecondTitle("People");
+		panel.add(activity, "Activities");
+		
+//		EnvironmentReq req = new EnvironmentReq();
+//		req.setFirstTitle("Quantitative");
+//		req.setSecondTitle("Qualitative");
+//		panel.add(req, "Req");
+		
+		DataGridTest test = new DataGridTest();
+		panel.add(test, "Test");
+		
+		panel.selectTab(4);
+	}
+
+}
