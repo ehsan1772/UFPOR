@@ -184,26 +184,33 @@
 </reference>
 </references>
 </referenceManager>
-<uiBinderSubtypeToOwner/>
-<uiBinderSubtypeToUiXml/>
+<uiBinderSubtypeToOwner>
+<entry owner="com.designer.gwt.client.Designertest" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Designertest.java[Designertest[DesignertestUiBinder"/>
+</uiBinderSubtypeToOwner>
+<uiBinderSubtypeToUiXml>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Designertest.java[Designertest[DesignertestUiBinder" uiXmlPath="com/designer/gwt/client/Designertest.ui.xml"/>
+</uiBinderSubtypeToUiXml>
 <uiXmlReferencedFields>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/PopupBase.ui.xml" name="style"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/PopupBase.ui.xml" name="panel"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="button"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="treeContainer"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="eastPanel"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="buttonLast"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="style"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="firstTitle"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="children"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="secondTitle"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="root"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="style"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="parents"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="envContainer"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="firstTitle"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="sourceList"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="secondTitle"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="root"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="style"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="parents"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="firstTitle"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="children"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="secondTitle"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="root"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="style"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="parents"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="add"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="editList"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="removeAll"/>
@@ -218,7 +225,6 @@
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentReq.ui.xml" name="table"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGeneral.ui.xml" name="root"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGeneral.ui.xml" name="style"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DataGridTest.ui.xml" name="pager"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DataGridTest.ui.xml" name="style"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DataGridTest.ui.xml" name="dataGrid"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Environment.ui.xml" name="style"/>

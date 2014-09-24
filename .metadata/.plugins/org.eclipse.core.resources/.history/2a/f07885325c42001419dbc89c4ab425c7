@@ -1,0 +1,121 @@
+package com.designer.gwt.client;
+
+import java.util.List;
+
+import com.designer.gwt.client.ContactDatabase.ContactInfo;
+import com.google.gwt.view.client.HasData;
+import com.google.gwt.view.client.ListDataProvider;
+import com.google.gwt.view.client.ProvidesKey;
+
+public class RequirementDatabase {
+	private static RequirementDatabase instance;
+	
+	public static RequirementDatabase getInstance() {
+		if (instance == null) {
+			instance = new RequirementDatabase();
+		}
+		
+		return instance;
+	}
+	
+	public ListDataProvider<RequirememtInfo> getDataProvider() {
+		return dataProvider;
+	}
+
+	public void setDataProvider(ListDataProvider<RequirememtInfo> dataProvider) {
+		this.dataProvider = dataProvider;
+	}
+
+	private ListDataProvider<RequirememtInfo> dataProvider = new ListDataProvider<RequirememtInfo>();
+	
+	public void addRequirement(RequirememtInfo req) {
+		List<RequirememtInfo> list = dataProvider.getList();
+		list.remove(req);
+		list.add(req);
+		
+	}
+	
+	  /**
+	   * Add a display to the database. The current range of interest of the display
+	   * will be populated with data.
+	   * 
+	   * @param display a {@Link HasData}.
+	   */
+	  public void addDataDisplay(HasData<RequirememtInfo> display) {
+	    dataProvider.addDataDisplay(display);
+	  }
+	  
+	  public RequirememtInfo createReq(String key) {
+		  RequirememtInfo req = new RequirememtInfo();
+		  req.setRequirment(key);
+		  req.setMinValue(String.valueOf(key.getBytes().length));
+		  req.setMaxValue(String.valueOf(key.getBytes().length * 1.2));
+		  req.setAssessor(new Assessor(key));
+		  
+		  return req;
+	  }
+	
+	public static class RequirememtInfo {
+		private static int nextId = 0;
+		private final int id;
+		private String requirment;
+		private String maxValue;
+		private String minValue;
+		private Assessor assessor;
+		
+		public static final ProvidesKey<RequirememtInfo> KEY_PROVIDER = new ProvidesKey<RequirememtInfo>() {
+
+			@Override
+			public Object getKey(RequirememtInfo item) {
+				// TODO Auto-generated method stub
+				return item.getRequirment();
+			}
+			
+		};
+		
+		public RequirememtInfo() {
+			  id = nextId;
+			  nextId++;
+		}
+		public String getMinValue() {
+			return minValue;
+		}
+		public void setMinValue(String minValue) {
+			this.minValue = minValue;
+		}
+		public String getRequirment() {
+			return requirment;
+		}
+		public void setRequirment(String requirment) {
+			this.requirment = requirment;
+		}
+		public Assessor getAssessor() {
+			return assessor;
+		}
+		public void setAssessor(Assessor assessor) {
+			this.assessor = assessor;
+		}
+		public String getMaxValue() {
+			return maxValue;
+		}
+		public void setMaxValue(String maxValue) {
+			this.maxValue = maxValue;
+		}
+		public int getId() {
+			return id;
+		}
+	}
+	
+	public static class Assessor {
+		private final String displayName;
+		
+		public Assessor(String name) {
+			displayName = name;
+		}
+
+		public String getDisplayName() {
+			return displayName;
+		}
+	}
+
+}

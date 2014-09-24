@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="DatabaseConstants" key="selection"/>
+		<item value="dragTarget" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="{&quot;Family&quot;, &quot;Friends&quot;, &quot;Cowworkers&quot;, &quot;Business&quot;, &quot;Contacts&quot;}"/>
-			<item value="DatabaseConstants"/>
-			<item value="contactDatabaseCategories"/>
-			<item value="First"/>
-			<item value="Business"/>
-			<item value="categories"/>
-			<item value="contactDatabaseCategories()"/>
-			<item value="30%"/>
+			<item value="dragTarget"/>
+			<item value="create"/>
+			<item value="Assessor"/>
+			<item value="display"/>
+			<item value="disply"/>
+			<item value="labelContainer"/>
+			<item value="sidePanel"/>
+			<item value="40"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -24,7 +24,7 @@
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="829" key="DIALOG_X_ORIGIN"/>
-		<item value="263" key="DIALOG_Y_ORIGIN"/>
+		<item value="724" key="DIALOG_X_ORIGIN"/>
+		<item value="295" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
