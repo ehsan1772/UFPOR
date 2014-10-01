@@ -1,0 +1,8 @@
+package com.designer.gwt.client;
+
+import com.google.gwt.user.client.ui.FlowPanel;
+
+public class ScrollHolder extends FlowPanel{
+
+
+}

@@ -1,0 +1,18 @@
+package com.designer.gwt.client;
+
+import java.util.List;
+
+import com.designer.gwt.shared.EnvironmentDM;
+import com.google.gwt.user.client.rpc.RemoteService;
+import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
+
+@RemoteServiceRelativePath("environment")
+public interface EnvironmentService extends RemoteService {
+	void addEnvironment(String name, String area);
+
+	public void removeEnvironment(String symbol) throws NotLoggedInException;
+
+	public String[] getEnvironmentNames() throws NotLoggedInException;
+	
+	public List<EnvironmentDM> getEnvironments() throws NotLoggedInException;
+}

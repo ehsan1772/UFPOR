@@ -7,6 +7,10 @@
 <targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DoubleTable.ui.xml"/>
 </reference>
 <reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentTreeItem.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentTreeItem.ui.xml"/>
+</reference>
+<reference sourceProject="TestGWTDesigner">
 <sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DoubleTable.ui.xml"/>
 <targetLocation class="LogicalJavaElementReferenceLocation">
 <logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
@@ -35,14 +39,20 @@
 <targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentGeneral.ui.xml"/>
 </reference>
 <reference sourceProject="TestGWTDesigner">
-<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
-<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+<sourceLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalType" fullyQualifiedName="com.designer.gwt.client.EnvironmentTreeItem$EnvironmentTreeItemUiBinder"/>
+</sourceLocation>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentTreeItem.ui.xml"/>
 </reference>
 <reference sourceProject="TestGWTDesigner">
 <sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/DataGridTest.ui.xml"/>
 <targetLocation class="LogicalJavaElementReferenceLocation">
 <logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.cellview.client"/>
 </targetLocation>
+</reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
+<targetLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/Environment.ui.xml"/>
 </reference>
 <reference sourceProject="TestGWTDesigner">
 <sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentReq.ui.xml"/>
@@ -133,6 +143,12 @@
 </targetLocation>
 </reference>
 <reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentTreeItem.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.client.ui"/>
+</targetLocation>
+</reference>
+<reference sourceProject="TestGWTDesigner">
 <sourceLocation class="LogicalJavaElementReferenceLocation">
 <logicalJavaElement class="LogicalType" fullyQualifiedName="com.designer.gwt.client.EnvironmentActivity$EnvironmentGeneralUiBinder"/>
 </sourceLocation>
@@ -171,46 +187,66 @@
 </targetLocation>
 </reference>
 <reference sourceProject="TestGWTDesigner">
-<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentGrouping.ui.xml"/>
-<targetLocation class="LogicalJavaElementReferenceLocation">
-<logicalJavaElement class="LogicalPackage" packageName="com.designer.gwt.client"/>
-</targetLocation>
-</reference>
-<reference sourceProject="TestGWTDesigner">
 <sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentReq.ui.xml"/>
 <targetLocation class="LogicalJavaElementReferenceLocation">
 <logicalJavaElement class="LogicalPackage" packageName="com.google.gwt.user.cellview.client"/>
 </targetLocation>
 </reference>
+<reference sourceProject="TestGWTDesigner">
+<sourceLocation class="ClasspathRelativeFileReferenceLocation" classpathRelativePath="com/designer/gwt/client/EnvironmentGrouping.ui.xml"/>
+<targetLocation class="LogicalJavaElementReferenceLocation">
+<logicalJavaElement class="LogicalPackage" packageName="com.designer.gwt.client"/>
+</targetLocation>
+</reference>
 </references>
 </referenceManager>
 <uiBinderSubtypeToOwner>
+<entry owner="com.designer.gwt.client.DataGridTest" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{DataGridTest.java[DataGridTest[DataGridTestUiBinder"/>
+<entry owner="com.designer.gwt.client.EnvironmentTreeItem" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{EnvironmentTreeItem.java[EnvironmentTreeItem[EnvironmentTreeItemUiBinder"/>
+<entry owner="com.designer.gwt.client.DoubleTable" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{DoubleTable.java[DoubleTable[DoubleTableUiBinder"/>
 <entry owner="com.designer.gwt.client.Designertest" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Designertest.java[Designertest[DesignertestUiBinder"/>
+<entry owner="com.designer.gwt.client.PopupBase" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{PopupBase.java[PopupBase[PopupBaseUiBinder"/>
+<entry owner="com.designer.gwt.client.Environment" uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Environment.java[Environment[EnvironmentUiBinder"/>
 </uiBinderSubtypeToOwner>
 <uiBinderSubtypeToUiXml>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Environment.java[Environment[EnvironmentUiBinder" uiXmlPath="com/designer/gwt/client/Environment.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{EnvironmentTreeItem.java[EnvironmentTreeItem[EnvironmentTreeItemUiBinder" uiXmlPath="com/designer/gwt/client/EnvironmentTreeItem.ui.xml"/>
 <entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{Designertest.java[Designertest[DesignertestUiBinder" uiXmlPath="com/designer/gwt/client/Designertest.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{PopupBase.java[PopupBase[PopupBaseUiBinder" uiXmlPath="com/designer/gwt/client/PopupBase.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{DoubleTable.java[DoubleTable[DoubleTableUiBinder" uiXmlPath="com/designer/gwt/client/DoubleTable.ui.xml"/>
+<entry uiBinder="=TestGWTDesigner/src&lt;com.designer.gwt.client{DataGridTest.java[DataGridTest[DataGridTestUiBinder" uiXmlPath="com/designer/gwt/client/DataGridTest.ui.xml"/>
 </uiBinderSubtypeToUiXml>
 <uiXmlReferencedFields>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentTreeItem.ui.xml" name="area"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentTreeItem.ui.xml" name="name"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentTreeItem.ui.xml" name="style"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentTreeItem.ui.xml" name="panel"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/PopupBase.ui.xml" name="cancel"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/PopupBase.ui.xml" name="save"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/PopupBase.ui.xml" name="style"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/PopupBase.ui.xml" name="panel"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="button"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="treeContainer"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="eastPanel"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="buttonLast"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="mainPanel"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="tabPanel1"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="center"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="greeting"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="signOut"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="style"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/Designertest.ui.xml" name="envContainer"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="firstTitle"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="sourceList"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="secondTitle"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="root"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="style"/>
-<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="parents"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="firstTitle"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="children"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="secondTitle"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="root"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="style"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentGrouping.ui.xml" name="parents"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="firstTitle"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="sourceList"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="secondTitle"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="root"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="style"/>
+<uiField location="/TestGWTDesigner/src/com/designer/gwt/client/EnvironmentActivity.ui.xml" name="parents"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="add"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="editList"/>
 <uiField location="/TestGWTDesigner/src/com/designer/gwt/client/DoubleTable.ui.xml" name="removeAll"/>

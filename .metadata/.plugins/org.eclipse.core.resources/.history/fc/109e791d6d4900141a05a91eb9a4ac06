@@ -1,0 +1,13 @@
+package com.designer.gwt.client;
+
+import java.util.List;
+
+import com.designer.gwt.shared.EnvironmentDM;
+import com.google.gwt.user.client.rpc.AsyncCallback;
+
+public interface EnvironmentServiceAsync {
+	void addEnvironment(String symbol, AsyncCallback<Void> callback);
+	void removeEnvironment(String symbol, AsyncCallback<Void> callback);
+	void getEnvironments(AsyncCallback<List<EnvironmentDM>> callback);
+	void getEnvironmentNames(AsyncCallback<String[]> callback);
+}

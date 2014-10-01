@@ -1,0 +1,5 @@
+package com.designer.gwt.client;
+
+public interface LoginService {
+
+}

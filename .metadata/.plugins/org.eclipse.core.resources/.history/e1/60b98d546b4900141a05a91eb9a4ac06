@@ -1,0 +1,5 @@
+package com.designer.gwt.shared;
+
+public class EnvironmentDM {
+
+}

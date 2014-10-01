@@ -1,0 +1,5 @@
+package com.designer.gwt.server;
+
+public class LoginServiceImpl {
+
+}

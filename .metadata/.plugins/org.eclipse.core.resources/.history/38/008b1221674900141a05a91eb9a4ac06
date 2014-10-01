@@ -1,0 +1,9 @@
+package com.designer.gwt.client;
+
+import com.google.gwt.user.client.rpc.AsyncCallback;
+
+public interface EnvironmentServiceAsync {
+	void addEnvironment(String symbol, AsyncCallback<Void> callback);
+	void removeEnvironment(String symbol, AsyncCallback<Void> callback);
+	void getEnvironments(AsyncCallback<String[]> callback);
+}
