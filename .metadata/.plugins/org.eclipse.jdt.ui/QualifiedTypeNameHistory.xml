@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="com.designer.gwt.client.TestGWTDesigner"/>
-<fullyQualifiedTypeName name="com.google.gwt.resources.client.CssResource"/>
-<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.FlowPanel"/>
-<fullyQualifiedTypeName name="apple.laf.JRSUIUtils.Tree"/>
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.DragStartHandler"/>
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.DragOverHandler"/>
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.DragOverEvent"/>
@@ -23,7 +18,6 @@
 <fullyQualifiedTypeName name="com.google.gwt.core.client.impl.AsyncFragmentLoader.Logger"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.HTMLPanel"/>
 <fullyQualifiedTypeName name="com.google.gwt.core.client.Scheduler"/>
-<fullyQualifiedTypeName name="com.designer.gwt.client.Designertest"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.ScrollPanel"/>
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.HasAllMouseHandlers"/>
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.HasClickHandlers"/>
@@ -35,7 +29,6 @@
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.FocusPanel"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentTreeItem"/>
 <fullyQualifiedTypeName name="com.designer.gwt.client.RequirementDatabase"/>
-<fullyQualifiedTypeName name="com.google.gwt.uibinder.client.UiField"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Button"/>
 <fullyQualifiedTypeName name="com.google.gwt.uibinder.client.UiHandler"/>
 <fullyQualifiedTypeName name="com.google.gwt.event.dom.client.ClickEvent"/>
@@ -51,13 +44,20 @@
 <fullyQualifiedTypeName name="com.google.gwt.user.client.ui.Label"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.rpc.RemoteService"/>
 <fullyQualifiedTypeName name="com.google.gwt.user.client.rpc.RemoteServiceRelativePath"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentService"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="com.google.appengine.api.users.User"/>
 <fullyQualifiedTypeName name="com.google.appengine.api.users.UserService"/>
 <fullyQualifiedTypeName name="com.google.appengine.api.datastore.Query"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.designer.gwt.server.Environment"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentServiceAsync"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.EnvironmentService"/>
+<fullyQualifiedTypeName name="com.google.gwt.uibinder.client.UiField"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.ui.TextBox"/>
+<fullyQualifiedTypeName name="com.google.gwt.user.client.rpc.AsyncCallback"/>
+<fullyQualifiedTypeName name="com.designer.gwt.shared.EnvironmentDM"/>
+<fullyQualifiedTypeName name="com.designer.gwt.client.Designertest"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>
